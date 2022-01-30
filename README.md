@@ -12,9 +12,7 @@ npm start```
  in a new terminal 
  
  **If npm run watch is not run in a seperate terminal first the api won't work properly**
- 
- To test if everything is working after starting the server go to http://localhost:4000/auth/ and you should get a hello message in the browser.
- 
+  
  **Before running command 2,3 and 4 ensure that you have postgres setup and the db config is properly setup**
  
 **postgres setup**

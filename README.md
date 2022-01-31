@@ -15,9 +15,17 @@ npm start```
   
  **Before running command 2,3 and 4 ensure that you have postgres setup and the db config is properly setup**
  
-**postgres setup**
+**db setup**
 
--If potgres is setup locally create a database called trello.
+-Installing postgres on windows: https://www.youtube.com/watch?v=RAFZleZYxsc
+
+-Redis would need to be setup also
+
+old redis ver for **windows**: https://github.com/microsoftarchive/redis/releases  (downlaod the msi file)
+
+For mac or linux downlaod the latest stable release from the redis website.
+
+-Once Postgres is setup create a database called trello. This can be done easily in pgadmin
 
 -After that a .env file should be created in the root directory (where the package.json is) and the user and password variable should be set.
 
